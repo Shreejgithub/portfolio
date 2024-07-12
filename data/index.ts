@@ -49,7 +49,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently working on React.js projects",
       description: "The Inside Scoop",
       className: "md:col-span-2 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,68 +72,58 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      title: "Brainwave modern UI/UX website",
+      des: "Brainwave, built with React.js and Tailwind CSS, exemplifies modern UI/UX with sleek design and seamless animations.",
+      img: "/brainwave.png",
+      iconLists: ["/re.svg", "/tail.svg", "/vitelogo.svg.png"],
+      link: "https://github.com/Shreejgithub/brainwave",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      title: "A Netflix clone with ChatGPT features",
+      des: "Streamlined NetflixGPT login/signup; developed content discovery and robust UI with React, Redux, JavaScript, Firebase, and TailwindCSS.",
+      img: "/netflixGPT.png",
+      iconLists: ["/re.svg", "/tail.svg", "/icons8-firebase.svg", "/tmdb.svg.png"],
+      link: "https://github.com/Shreejgithub/netflix-gpt",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      title: "Biomik-web: A feature-rich dashboard.",
+      des: "Built Biomik-web with a robust UI using ReactJs, Redux, JavaScript, Node.js, BootstrapCSS, Firebase, and i18n.",
+      img: "/Biomik-web.png",
+      iconLists: ["/re.svg", "/Javascript.svg.png" ,  "/redux.svg", "/bootstrap.svg.png", "/Node.js.svg.png"],
+      link: "https://github.com/omikinfotech/omik-web",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      title: "Swiggy Clone",
+      des: "Developed a React app mirroring Swiggy, integrating real-time data with Swiggy APIs, featuring streamlined login, restaurant exploration, and efficient order management.",
+      img: "/swiggy.jpg",
+      iconLists: ["/re.svg", "/Javascript.svg.png", "/tail.svg"],
+      link: "https://github.com/Shreejgithub/namaste-react11",
     },
   ];
   
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "I create responsive React UI dashboards using SOLID principles and collaborative teamwork. My integration of i18n ensures global accessibility. Expertise in Redux, Axios, and React DevTools enables efficient data handling and debugging, making me ideal for dynamic projects."
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "As a dynamic web developer, I bring expertise in JavaScript and ReactJS, with a track record of success in startup environments and live project delivery. I am committed to continuous growth as a software development engineer, leveraging hands-on experience and a passion for innovation to excel in diverse project environments."
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "With a strong foundation in Core Java and a deep understanding of OOP concepts and collection frameworks, I am well-equipped for developing robust applications. My refined communication and problem-solving skills, combined with enhanced coding proficiency, make me an ideal fit for complex, dynamic projects."
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "With a proven track record in adaptability, quick learning, and effective time management, I excel in dynamic project environments. My strong communication skills and collaborative teamwork ensure seamless integration and efficient project delivery."
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "My proficiency in problem-solving and innovative thinking was demonstrated by winning the Capgemini Hackathon. I achieved a 70% score in the Big Data Computing course, showcasing my technical expertise. Additionally, my leadership skills were recognized through certificates for managing student coordination at events like PARIKRAMA and SYMPHONY."
     },
   ];
   
@@ -173,38 +163,39 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Frontend Developer Intern at Omik Infotech",
+      desc: "I developed responsive React UI dashboards with SOLID Principles, integrated i18n for global accessibility, and optimized data handling using Redux, Axios, and React DevTools at Omik Infotech.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Friends Union For Energising Lives Intern",
+      desc: "I honed Core Java proficiency, refined communication skills, and mastered problem-solving while contributing to robust application development at Friends Union For Energising Lives (FUEL).",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
-    {
-      id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
-    },
-    {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
-    },
+    // {
+    //   id: 3,
+    //   title: "Freelance App Dev Project",
+    //   desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    //   className: "md:col-span-2", // change to md:col-span-2
+    //   thumbnail: "/exp3.svg",
+    // },
+    // {
+    //   id: 4,
+    //   title: "Lead Frontend Developer",
+    //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    //   className: "md:col-span-2",
+    //   thumbnail: "/exp4.svg",
+    // },
   ];
   
   export const socialMedia = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/Shreejgithub/namaste-react11",
     },
     {
       id: 2,
